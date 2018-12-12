@@ -1,0 +1,27 @@
+{
+  "name": "csv-report-generator",
+  "version": "1.0.0",
+  "description": "convert json to csv",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm test",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcspear/CSV-Report-Generator.git"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-partials": "^0.3.0",
+    "bluebird": "^3.3.4",
+    "ejs": "^2.4.1",
+    "body-parser": "^1.15.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcspear/CSV-Report-Generator/issues"
+  },
+  "homepage": "https://github.com/jcspear/CSV-Report-Generator#readme"
+}
